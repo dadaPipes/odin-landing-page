@@ -1,0 +1,11 @@
+--2023-09-21 15:14:00--  https://images.immediate.co.uk/production/volatile/sites/3/2017/06/141364.d4c2a0d8-4065-4016-9c33-516751c98ece.jpg?quality=90
+Resolving images.immediate.co.uk (images.immediate.co.uk)... 151.101.86.137
+Connecting to images.immediate.co.uk (images.immediate.co.uk)|151.101.86.137|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 50202 (49K) [image/jpeg]
+Saving to: 'cypermen.jpg'
+
+cypermen.jpg                                   0%[                                                                                               ]       0  --.-KB/s               cypermen.jpg                                 100%[==============================================================================================>]  49,03K  --.-KB/s    in 0,02s   
+
+2023-09-21 15:14:00 (2,77 MB/s) - 'cypermen.jpg' saved [50202/50202]
+

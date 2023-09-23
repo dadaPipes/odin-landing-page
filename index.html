@@ -5,60 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dalek Web Academy</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./images/darlek.png" type="image/x-icon">
+    <link rel="icon" href="./images/dalek-logo.jpg" type="image/x-icon">
 </head>
 
 <header>
     <section class="header-container">
-        <p class="logo-text"><a href="./index.html">Dalek Web Academy</a></p>
-        <nav class="header-link-text">
+        <div class="logo-container">
+            <a href="./index.html">
+                <img src="./images/dalek-logo.jpg" alt="dalek-logo">
+                <p>Dalek Web Academy</p>
+            </a>
+        </div>
+        <nav>
             <ul>      
-                <li><a href="#">Time Travel Courses</a></li>   
-                <li><a href="#">Dalek Chronicles (About Us)</a></li>    
+                <li><a href="#">Time Travel Courses</a></li>
+                <li><a href="#">Dalek Chronicles (About Us)</a></li>
             </ul>
-        </nav>        
+        </nav>
     </section>
     <section class="hero-container">
         <div class="hero-content">
             <h1 class="hero-main-text">EXPLAIN!!!</h1>
-            <p class="hero-secondary-text">Where Daleks learn to conquer the web. <br> Learn essential web development skills in Dalek-friendly language</p>
+            <p class="hero-secondary-text">Where Daleks learn to conquer the web. <br> Learn essential web development skills <br> in Dalek-friendly language</p>
             <button>Sign up</button>
         </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1599433762903-b541f08b9aea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60;" alt="darlek">        
-        </div>
+        <img class="hero-img" src="./images/darlek.jpg" alt="darlek">
     </section>
 </header>
 
 <body>
-    <h2 class="info-header">Web Development for Intergalactic Beings</h2>
-    <div class="info-container">
-
-        <div class="position-vertical">
-            <div class="square-container">
-                <img src="https://www.bbc.co.uk/doctorwho/medialibrary/images/1024/s4_04_wal_09.jpg?size=1024&promo=/doctorwho/medialibrary/images/main-promo/s4_04_wal_09.jpg&purpose=Computer%20wallpaper&summary=Triple%20threat%21&info=&tag_file_id=s4_04_wal_09" alt="three sontarans in armor">
-            </div>
-            <p class="info-text">Code with Sontaran tactical precision</p>    
+    <section class="info-section">
+        <h2>Web Development for Intergalactic Beings</h2>
+        <div class="info-container">
+            <figure>
+                <img class="info-img" src="./images/sontarans.jpg" alt="sontarans">
+                <figcaption>Code with Sontarans tactical precision</figcaption>
+            </figure>
+            <figure>
+                <img class="info-img" src="./images/weeping-angel.jpg" alt="weeping-angel">
+                <figcaption>Craft code that stands the test of time</figcaption>
+            </figure>
+            <figure>
+                <img class="info-img" src="./images/cypermen.jpg" alt="cypermen">  
+                <figcaption>Upgrade your coding skills, starting today</p>
+            </figure>
+            <figure>
+                <img class="info-img" src="./images/autons.jpg" alt="autons">
+                <figcaption>Shape and mold the code like an Auton</p>
+            </figure>
         </div>
-        <div class="position-vertical">
-            <div class="square-container">
-                <img src="https://hips.hearstapps.com/hmg-prod/images/weeping-angel-doctor-who-flux-1634671120.jpg?crop=1xw:0.9998833274997083xh;center,top&resize=980:*" alt="weeping angel">
-            </div>
-            <p class="info-text">Craft code that stands the test of time</p>
-        </div>
-        <div class="position-vertical">
-            <div class="square-container">
-                <img src="https://images.immediate.co.uk/production/volatile/sites/3/2017/06/141364.d4c2a0d8-4065-4016-9c33-516751c98ece.jpg?quality=90&webp=true&resize=570,380" alt="cybermen">  
-            </div>
-            <p class="info-text">Upgrade your coding skills, starting today</p>
-        </div>
-        <div class="position-vertical">
-            <div class="square-container">
-                <img src="https://cdn.mos.cms.futurecdn.net/VJpdEnePu3pybCf5tcHxvQ-970-80.jpg.webp" alt="autons">
-            </div>
-            <p class="info-text">Shape and mold code the like an Auton</p>
-        </div>      
-    </div>
+    </section>    
 
     <section class="quote-section">
         <p class="quote-text">"At Dalek's Web Academy, I embarked on a personal quest to conquer the online world. 
@@ -68,11 +64,19 @@
         <p class="quote-signatur">- A Driven Dalek Learner</p>
     </section>
 
-    <section>
-        <div class="sign-up-container">
-            <h3>header 3</h3>
-            <p>paragraf</p>
-            <button>button</button>
+    <section class="call-to-action">
+        <div class="container">
+            <div class="text">
+                <h3>Take a peek inside the Tardis</h3>
+                <p>
+                    Time is up – for your coding adventure. <br>
+                    Just like the Tardis, our courses are bigger on the inside, <br>
+                    packed with knowledge and possibilities waiting to be explored. <br>
+                    Sign up for our exclusive web development courses <br>
+                    by clicking the TARDIS button right over there! <br>
+                </p>
+            </div>
+            <button><img src="./images/tardis.png" alt="tardis"></button>
         </div>
     </section>
 </body>

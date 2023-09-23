@@ -1,42 +1,68 @@
-/* header section */
+header {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #1F2937;
+}
+
+/* #region header region */
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 2%;
-    margin-bottom: 5%;
     border: 1px solid red; /* debugging*/
 }
 
-.logo-text {
+.header-container .logo-container {
     display: flex;
+    justify-content: space-between;
+    border: 1px solid green; /* debugging*/
+}
+
+.header-container .logo-container a {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.header-container .logo-container a img {
+    height: 100%;
+    width: 60px;
+    margin-right: 10px;
+    object-fit: contain ;
+}
+
+.header-container .logo-container p {
     margin: 0;
-    font-size: 24px;
-    border: 1px solid green; /* debugging*/
 }
 
-.header-link-text {
+.header-container nav {
     display: flex;
+    align-self: center;
+    flex-wrap: wrap;
     border: 1px solid green; /* debugging*/
 }
 
-.header-link-text ul {
+.header-container ul {
     display: flex;
     list-style: none; /* Remove default list styles */
     margin: 0;
     padding: 0;
 }
 
-.header-link-text li {
+.header-container li {
     margin-left: 20px;  /* Add some spacing between the links */
 }
 
-.header-link-text a {
+.header-container a {
     text-decoration: none; /* Remove underline from links */
 }
 
-/* hero section */
+/* #endregion */
+
+/* #region hero section */
 
 .hero-container {
     display: flex;
@@ -55,24 +81,32 @@
     border: 1px solid green; /* debugging*/
 }
 
-.hero-main-text {
+.hero-content h1 {
     display: flex;
     margin: 0;
     font: 48px;
     font-weight: 900;
 }
 
-.hero-secondary-text {
+.hero-content p {
     display: flex;
     margin-right: 5%;
 }
 
-.hero-image {
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid green; /* debugging*/
+    }
+
+.hero-container figure {
     display: flex;
     flex: 1;
 }
 
-.hero-image img {
+.hero-img {
     max-height: 200px;
     height: 100%;
     width: auto;
@@ -80,16 +114,21 @@
     margin-left: auto;
 }
 
-.info-text,
-.info-header {
-    color: #1F2937;
+/* #endregion */
+
+/* #region info section */
+
+.info-section {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.info-header {
+.info-section h2 {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    border: 1px solid green; /* debugging*/
+    color: #1F2937;
+    border: 2px dotted green; /* debugging */
 }
 
 .info-container {
@@ -100,35 +139,42 @@
     border: 1px solid red; /* debugging*/
 }
 
-.square-container,
-.info-text {
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
     margin: 2%;
-}
+    border: 1px solid green; /* debugging*/
+  }
 
-.square-container {
-    flex: 1 1 150px;
-    max-width: 100%;
-    height: 150px;
-    border: 5px solid #3882F6;
-    border-radius: 25px;
-    overflow: hidden;
-    margin: 2%;
-}
-  
-.square-container img {
-  width: 100%;
-  height: 100%;
+.info-img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #3882F6;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 5%;
   object-fit: cover;
 }
 
-.position-vertical {
-  display: flex;
-  flex-direction: column;
+figure figcaption {
+    display: flex;
+    margin: 5%;
+    color: #1F2937;
+    border: 2px dotted green; /* debugging */
 }
+
+/* #endregion */
+
+/* #region quote section */
 
 .quote-section {
     background-color: #E5E7EB;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
@@ -138,20 +184,14 @@
 .quote-text {
     font-size: 36px;
     color: #1F2937;
+    border: 2px dotted green; /* debugging */
 }
 
 .quote-signatur {
     font-weight: bold;
     padding-bottom: 5%;
     text-align: end;
-}
-
-header,
-.footer {
-    background-color: #1F2937;
-    padding-left: 10%;
-    padding-right: 10%;
-    border: 1px solid blue; /* debugging*/
+    border: 2px dotted green; /* debugging */
 }
 
 .hero-secondary-text,
@@ -167,36 +207,61 @@ button {
     color: #F9FAF8;
 }
 
-button {
-    background-color: #3882F6;
-    border-radius: 8px;
-    height: 40px;
-    width: 100px;
-    border: 1px solid green; /* debugging*/
-    }
+/* #endregion */
 
-.sign-up-container {
-    display: block;
+/* #region call to action section*/
+
+.call-to-action {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.call-to-action .container {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: #3882F6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     border-radius: 8px;
+    background-color: #3882F6;
     border: 1px solid red; /* debugging*/
 }
 
-.sign-up-field h3 {
-    display: flex;
+.call-to-action .container .text {
+    flex: content;
+    border: 1px solid red; /* debugging*/
 }
 
-.sign-up-field p {
-    display: flex;
+.call-to-action .container .text h3 {
+    margin-top: 0;
+    color: #F9FAF8;
+    border: 2px dotted green; /* debugging */
 }
 
-.sign-up-field button {
-    display: flex;
+.call-to-action .container .text p {
+    margin-bottom: 0;
+    color: #E5E7EB;
+    border: 2px dotted green; /* debugging */
+}
+
+.call-to-action .container button {
     border-radius: 8px;
-    border-color: 1px solid #E5E7EB;
-}   
+    border: 5px solid #F9FAF8;
+}
+
+.call-to-action .container button img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain ;
+}
+
+/* #endregion */
+
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1F2937;
+}

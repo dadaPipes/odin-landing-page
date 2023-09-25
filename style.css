@@ -97,7 +97,7 @@
     color: #E5E7EB;
 }
 
-.hero__button {
+.hero__sign-up-button {
     background-color: #3882F6;
     border-radius: 8px;
     height: 40px;
@@ -196,7 +196,7 @@
 
 /* #endregion */
 
-/* #region call to action section*/
+/* #region call to action section */
 
 .call-to-action {
     display: flex;
@@ -226,7 +226,7 @@
     border: 2px dotted green; /* debugging */
 }
 
-.call-to-action__button {
+.call-to-action__sign-up-button {
     border-radius: 8px;
     height: 100px;
     width: 200px;
@@ -234,7 +234,7 @@
     border: 5px solid #F9FAF8;
 }
 
-.call-to-action__button-img {
+.call-to-action__sign-up-button-img {
     height: 100%;
     width: 100%;
     object-fit: contain ;
@@ -242,8 +242,16 @@
 
 /* #endregion */
 
-footer {
-    padding-left: 10%;
-    padding-right: 10%;
+/* #region footer */
+.footer {
+    padding: 1% 0;
     background-color: #1F2937;
 }
+
+.footer__text {
+    font-size: 10px;
+    text-align: center;
+    color: #E5E7EB;   
+}
+
+/* #endregion */

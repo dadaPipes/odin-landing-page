@@ -9,14 +9,12 @@
     padding-top: 2%;
     padding-bottom: 5%;
     background-color: #1F2937;
-    border: 1px solid red; /* debugging*/
 }
 
 .header__home-nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    border: 1px solid green; /* debugging*/
 }
 
 .header__home-nav-link {
@@ -42,7 +40,6 @@
     display: flex;
     justify-content: space-between;
     list-style: none; /* Remove default list styles */
-    border: 1px solid green; /* debugging*/
 }
 
 .header__main-nav ul {
@@ -72,7 +69,6 @@
     padding-left: 10%;
     padding-right: 10%;
     background-color: #1F2937;
-    border: 1px solid red; /* debugging*/
 }
 
 .hero__content {
@@ -80,7 +76,6 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    border: 1px solid green; /* debugging*/
 }
 
 .hero__main-text {
@@ -103,7 +98,6 @@
     height: 40px;
     width: 100px;
     color: #F9FAF8;
-    border: 1px solid green; /* debugging*/
     }
 
 .hero__img {
@@ -128,7 +122,6 @@
     font-weight: bold;
     text-align: center;
     color: #1F2937;
-    border: 2px dotted green; /* debugging */
 }
 
 .info__content {
@@ -136,7 +129,6 @@
     align-content: center;
     margin: 0 20%;
     background-color: white;
-    border: 1px solid red; /* debugging*/
 }
 
 .info__content-figure {
@@ -145,7 +137,6 @@
     align-items: center;
     flex: 1;
     margin: 2%;
-    border: 1px solid green; /* debugging*/
   }
 
 .info__content-figure-img {
@@ -164,7 +155,6 @@
     display: flex;
     margin: 5%;
     color: #1F2937;
-    border: 2px dotted green; /* debugging */
 }
 
 /* #endregion */
@@ -184,14 +174,12 @@
 .quote__text {
     font-size: 36px;
     color: #1F2937;
-    border: 2px dotted green; /* debugging */
 }
 
 .quote__signature {
     font-weight: bold;
     padding-bottom: 5%;
     text-align: end;
-    border: 2px dotted green; /* debugging */
 }
 
 /* #endregion */
@@ -206,24 +194,20 @@
     padding: 5% 10%;
     border-radius: 8px;
     background-color: #3882F6;
-    border: 1px solid red; /* debugging*/
 }
 .call-to-action__text {
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid green; /* debugging */
 }
 
 .call-to-action__text-main {
     margin-top: 0;
     color: #F9FAF8;
-    border: 2px dotted green; /* debugging */
 }
 
 .call-to-action__text-sub {
     margin-bottom: 0;
     color: #E5E7EB;
-    border: 2px dotted green; /* debugging */
 }
 
 .call-to-action__sign-up-button {

@@ -151,7 +151,10 @@
   overflow: hidden;
   margin: 5%;
   object-fit: cover;
+}
 
+.info__content-figure-img.weeping-angel:hover {
+    content: url("./images/weeping-angel-scary.jpg");
 }
 
 .info__content-figure-figcaption {

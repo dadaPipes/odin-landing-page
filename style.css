@@ -78,7 +78,7 @@
     flex: 1;
 }
 
-.hero__main-text {
+.hero__content-main-text {
     display: flex;
     margin: 0;
     font: 48px;
@@ -86,14 +86,16 @@
     color: #F9FAF8;
 }
 
-.hero__sub-text {
+.hero__content-sub-text {
     display: flex;
     margin-right: 5%;
     color: #E5E7EB;
 }
 
-.hero__sign-up-button {
+.hero__content-sign-up-button {
     background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
     border-radius: 8px;
     height: 40px;
     width: 100px;
@@ -149,6 +151,7 @@
   overflow: hidden;
   margin: 5%;
   object-fit: cover;
+
 }
 
 .info__content-figure-figcaption {
@@ -214,7 +217,7 @@
     border-radius: 8px;
     height: 100px;
     width: 200px;
-    margin-left: 2%;
+    margin-left: 5%;
     border: 5px solid #F9FAF8;
 }
 
@@ -222,6 +225,7 @@
     height: 100%;
     width: 100%;
     object-fit: contain ;
+    background-color: #F9FAF8;
 }
 
 /* #endregion */

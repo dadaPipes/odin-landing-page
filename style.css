@@ -200,13 +200,18 @@
 
 .call-to-action {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 5% 10%;
     padding: 5% 10%;
     border-radius: 8px;
     background-color: #3882F6;
     border: 1px solid red; /* debugging*/
+}
+.call-to-action__text {
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid green; /* debugging */
 }
 
 .call-to-action__text-main {
@@ -223,6 +228,9 @@
 
 .call-to-action__button {
     border-radius: 8px;
+    height: 100px;
+    width: 200px;
+    margin-left: 2%;
     border: 5px solid #F9FAF8;
 }
 
